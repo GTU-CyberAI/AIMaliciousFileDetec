@@ -50,7 +50,7 @@ This project aims to provide a user-friendly, cross-platform desktop application
 └── dist/                  # Build output directory
 ```
 
-## 🛠️ Installation Instructions
+## Installation Instructions
 
 ### Prerequisites
 - **Node.js** (v14.0 or higher) and npm
