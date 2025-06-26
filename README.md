@@ -50,7 +50,11 @@ This project aims to provide a user-friendly, cross-platform desktop application
 └── dist/                  # Build output directory
 ```
 
+<<<<<<< HEAD
 ## Installation Instructions
+=======
+## 🛠️ Installation Instructions
+>>>>>>> 87a0a1f47ecb8cfc966eb98043b064b199a82ab9
 
 ### Prerequisites
 - **Node.js** (v14.0 or higher) and npm
@@ -178,7 +182,11 @@ pip install psutil  # For performance monitoring
 - Model: Scikit-learn based Random Forest Classifier malware detection
 - Build: Electron Builder for distribution
 
+<<<<<<< HEAD
+##  Acknowledgments
+=======
 ## Acknowledgments
+>>>>>>> 87a0a1f47ecb8cfc966eb98043b064b199a82ab9
 
 ### Course Information
 - **Course Name**: CSE473 - Network and Information Security 

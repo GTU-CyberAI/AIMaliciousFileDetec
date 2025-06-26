@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>EXE File Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>EXE File Analyzer</h1>
+
+  <div id="upload-area">
+    <input type="file" id="file-input" hidden />
+    <div id="drop-zone">Drag and drop a .pdf file here or click to upload</div>
+    <button id="upload-btn">Browse File</button>
+    <p id="selected-file">No file selected</p>
+  </div>
+
+  <button id="check-btn" disabled>Check File</button>
+
+  <div id="result" style="display: none;">
+    <!-- Results will appear here -->
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

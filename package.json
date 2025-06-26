@@ -1,0 +1,43 @@
+{
+    "name": "exe-analyzer-app",
+    "version": "1.0.0",
+    "description": "Electron app to analyze files using a Python script",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "build": "electron-builder",
+        "dev": "electron . --inspect",
+        "install-deps": "npm install"
+    },
+    "author": "Celiks",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^29.0.0",
+        "electron-builder": "^26.0.12"
+    },
+    "build": {
+        "appId": "com.cse470.exeanalyzer",
+        "productName": "Malicious File Analyzer",
+        "files": [
+            "**/*",
+            "!src/model_training/",
+            "!config/package-lock.json"
+        ],
+        "extraFiles": [
+            {
+                "from": "src/models/",
+                "to": "models/",
+                "filter": ["*.pkl"]
+            }
+        ],
+        "mac": {
+            "target": "dmg"
+        },
+        "win": {
+            "target": "nsis"
+        },
+        "linux": {
+            "target": "AppImage"
+        }
+    }
+}
