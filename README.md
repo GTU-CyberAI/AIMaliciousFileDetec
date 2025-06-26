@@ -104,7 +104,7 @@ npm start
 npm run build
 ```
 
-## 🧪 Running Tests
+## Running Tests
 
 ### Run All Tests
 ```bash
@@ -130,7 +130,7 @@ For running tests, install additional dependencies:
 pip install psutil  # For performance monitoring
 ```
 
-## ▶️ Usage Examples
+## Usage Examples
 
 ### Basic File Analysis
 
@@ -178,7 +178,7 @@ pip install psutil  # For performance monitoring
 - Model: Scikit-learn based Random Forest Classifier malware detection
 - Build: Electron Builder for distribution
 
-## 🤝 Acknowledgments
+## Acknowledgments
 
 ### Course Information
 - **Course Name**: CSE473 - Network and Information Security 
