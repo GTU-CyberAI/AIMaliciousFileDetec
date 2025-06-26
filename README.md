@@ -98,37 +98,7 @@ npm start
 npm start
 ```
 
-### Building for Distribution
 
-```bash
-npm run build
-```
-
-## Running Tests
-
-### Run All Tests
-```bash
-cd tests
-python run_tests.py
-```
-
-### Run Specific Test Categories
-```bash
-# Unit tests only
-python -m unittest discover tests/unit -v
-
-# Integration tests only  
-python -m unittest discover tests/integration -v
-
-# Specific test file
-python -m unittest tests.unit.test_detection -v
-```
-
-### Test Requirements
-For running tests, install additional dependencies:
-```bash
-pip install psutil  # For performance monitoring
-```
 
 ## Usage Examples
 
@@ -178,8 +148,7 @@ pip install psutil  # For performance monitoring
 - Model: Scikit-learn based Random Forest Classifier malware detection
 - Build: Electron Builder for distribution
 
-##  Acknowledgments
-=======
+
 ## Acknowledgments
 
 ### Course Information
