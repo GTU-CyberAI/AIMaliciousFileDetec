@@ -157,7 +157,7 @@ npm start
 - **Semester**: Spring 2025
 
 ### Instructor
-- **Professor**: Salih SARP
+- **Professor**: Dr. Salih SARP
 - **Department**: Computer Science and Engineering
 
 ### Project Team
