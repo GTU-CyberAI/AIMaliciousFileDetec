@@ -33,21 +33,7 @@ This project aims to provide a user-friendly, cross-platform desktop application
 │       ├── detection.py   # Feature extraction for training
 │       ├── label_dataset.py # Dataset labeling utilities
 │       └── train_model.py # Model training script
-├── tests/                 # Test cases
-│   ├── unit/              # Unit tests
-│   │   ├── test_detection.py    # Backend detection tests
-│   │   ├── test_analyze.py      # Analysis workflow tests
-│   │   └── test_frontend.py     # Frontend component tests
-│   ├── integration/       # Integration tests
-│   │   ├── test_full_workflow.py # End-to-end testing
-│   │   └── test_performance.py   # Performance benchmarks
-│   ├── sample_files/      # Test files for analysis
-│   ├── run_tests.py       # Test runner script
-│   └── test_config.json   # Test configuration
-├── config/                # Configuration files
-│   ├── package.json       # Original package configuration
-│   └── package-lock.json  # Lock file for dependencies
-└── dist/                  # Build output directory
+├── 
 ```
 
 ## Installation Instructions
